@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Versionamiento Local vs Remoto</title>
+    <link rel="stylesheet" href="DiferencesRemoteLocal.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>Versionamiento Local vs Remoto</h1>
+        <p class="subtitle">Conoce las diferencias clave entre sistemas de control de versiones locales y remotos</p>
+    </header>
+
+    <div class="comparison-container">
+        <div class="comparison-box">
+            <div class="icon">💻</div>
+            <h2>Versionamiento Local</h2>
+            <p>Los sistemas de control de versiones locales almacenan todas las versiones de los archivos en la misma computadora donde se realiza el trabajo.</p>
+
+            <h3>Características principales:</h3>
+            <ul class="feature-list">
+                <li>Todo el repositorio existe solo en el disco duro local</li>
+                <li>No requiere conexión a internet para funcionar</li>
+                <li>Ejemplos: RCS (Revision Control System), SVN local</li>
+                <li>Mayor velocidad para operaciones al no depender de la red</li>
+                <li>Operaciones como commit, branch y merge son rápidas</li>
+            </ul>
+
+            <div class="pros-cons">
+                <h3 class="pros">Ventajas:</h3>
+                <ul>
+                    <li>Operaciones más rápidas</li>
+                    <li>No depende de conexión a internet</li>
+                    <li>Control total sobre el repositorio</li>
+                    <li>Facilidad para trabajar sin interrupciones</li>
+                </ul>
+
+                <h3 class="cons">Desventajas:</h3>
+                <ul>
+                    <li>Riesgo de pérdida de datos si el disco duro falla</li>
+                    <li>Dificulta la colaboración entre equipos</li>
+                    <li>No hay respaldo automático en otros servidores</li>
+                    <li>Complicado para compartir código con otros desarrolladores</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="comparison-box">
+            <div class="icon">☁️</div>
+            <h2>Versionamiento Remoto</h2>
+            <p>Los sistemas de control de versiones remotos almacenan el repositorio en un servidor accesible a través de la red, permitiendo la colaboración entre múltiples desarrolladores.</p>
+
+            <h3>Características principales:</h3>
+            <ul class="feature-list">
+                <li>El repositorio principal está en un servidor remoto</li>
+                <li>Permite colaboración simultánea entre múltiples desarrolladores</li>
+                <li>Ejemplos: GitHub, GitLab, Bitbucket, Azure DevOps</li>
+                <li>Ofrece funciones sociales como pull requests y code reviews</li>
+                <li>Integración con herramientas de CI/CD y gestión de proyectos</li>
+            </ul>
+
+            <div class="pros-cons">
+                <h3 class="pros">Ventajas:</h3>
+                <ul>
+                    <li>Facilita el trabajo en equipo y la colaboración</li>
+                    <li>Backup automático del código en servidores</li>
+                    <li>Seguimiento detallado de cambios y contribuciones</li>
+                    <li>Acceso desde cualquier ubicación</li>
+                </ul>
+
+                <h3 class="cons">Desventajas:</h3>
+                <ul>
+                    <li>Requiere conexión a internet para sincronizaciones</li>
+                    <li>Operaciones pueden ser más lentas dependiendo de la conexión</li>
+                    <li>Posibles problemas de seguridad si no se configura correctamente</li>
+                    <li>Puede implicar costos adicionales para repositorios privados</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 - Informe técnico para GA7-220501096-AA1-EV01</p>
+    </footer>
+</div>
+</body>
+</html>
